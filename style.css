@@ -3,16 +3,16 @@
     margin: 0 auto;
 }
 
-    .color-red {
+.color-red {
         color: red;
     }
 
-    .text {
-        width: 60rem;
+.text {
+        width: 53rem;
         margin: 0 auto;
     }
 
-    .RedHot
+.RedHot
     {
         width: 70rem;
         margin: 0 auto;
@@ -24,10 +24,54 @@
         1px 1px 0 rgb(0, 0, 0);
     }
 
-    .lol 
+    
+.tjo 
     {
         padding-top: 2rem;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        
     }
+
+.img
+    {
+        position: relative;
+        max-width: 25%;
+        top: 0rem;
+        left: 0rem;
+    }
+
+.nav
+    {
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        color: #FEFED8;
+    }
+
+.body
+    {
+        background: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    }
+
+.nav_inner {
+        width: 100%;
+    }
+
+.nav_heading {
+        color:#FEFED8;
+        text-decoration: none;
+    }
+
+.container_nav{
+        position: relative;
+        max-width: 48rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-right: auto;
+        margin-left: auto;
+}
