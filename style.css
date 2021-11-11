@@ -9,21 +9,8 @@
 
 .text {
         width: 53rem;
-        margin: 0 auto;
+        margin-left: 20%;
     }
-
-.RedHot
-    {
-        width: 70rem;
-        margin: 0 auto;
-        color: rgb(202, 5, 5);
-        text-shadow:
-        -1px -1px 0 rgb(0, 0, 0),
-        1px -1px 0 rgb(0, 0, 0),
-        -1px 1px 0 rgb(0, 0, 0),
-        1px 1px 0 rgb(0, 0, 0);
-    }
-
     
 .tjo 
     {
@@ -46,16 +33,17 @@
     {
         display: flex;
         align-items: center;
-        background-color: rgb(255, 255, 255);
-        color: #FEFED8;
+        background-color: rgb(91, 151, 85);
+        color: #ffffff;
     }
 
 .body
     {
-        background: rgb(0, 0, 0);
-    color: #ffffff;
+        background: rgb(255, 255, 255);
+    color: rgb(91, 151, 85);
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
+    margin: 0;
     }
 
 .nav_inner {
@@ -68,10 +56,33 @@
     }
 
 .container_nav{
-        position: relative;
+        position: flex;
         max-width: 48rem;
         padding-right: 1rem;
         padding-left: 1rem;
         margin-right: auto;
         margin-left: auto;
+}
+
+.div {
+    display: block;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.column {
+    flex: 33.33%;
+  }
+
+.img2 {
+    position: relative;
+        max-width: 25%;
+        top: 0rem;
+        left: 15rem;
 }
