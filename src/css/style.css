@@ -1,19 +1,13 @@
 
-.text {
+p {
         width: 53rem;
-        margin-left: 20%;
+        display: flex;
+        justify-content: center;
     }
     
-.tjo 
-    {
-        padding-top: 2rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        
-    }
 
-.img
+
+img
     {
         position: relative;
         max-width: 25%;
@@ -21,22 +15,17 @@
         left: 0rem;
     }
 
-.nav
-    {
-        display: flex;
-        align-items: center;
-        background-color: rgb(33, 94, 28);
-        color: #ffffff;
-    }
 
-.body
+body
     {
-        background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     color: rgb(33, 94, 28);
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
-    margin: 0;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .nav_inner {
         width: 100%;

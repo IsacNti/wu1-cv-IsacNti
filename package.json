@@ -1,0 +1,25 @@
+{
+  "name": "wu1-cv-isacnti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsacNti/wu1-cv-IsacNti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsacNti/wu1-cv-IsacNti/issues"
+  },
+  "homepage": "https://github.com/IsacNti/wu1-cv-IsacNti#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
