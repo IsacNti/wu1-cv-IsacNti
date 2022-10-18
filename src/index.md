@@ -2,7 +2,6 @@
 layout: base.njk
 title: Will Mackenzie
 ---
-# Will Mackenzie
 
 
 ## CONTACT INFORMATION
@@ -11,7 +10,6 @@ title: Will Mackenzie
     Email: Will.mackhenzie@goggle.com
 
 
-{% image "/image/Will.png","Evil", "400px", "auto" %}
 
 
 ## PROFESSIONAL EXPERIENCE

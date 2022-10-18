@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,19 @@
     </title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    {{ content | safe }}
+    {% include "navigation.njk" %}  
+    <div class="divcontiner">
+        <div class="item2">
+            <div>
+                {{ content | safe }}
+            </div>
+            <div class="item-bilde">
+                {% include "bilder.njk" %}
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
